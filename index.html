@@ -64,11 +64,15 @@
              width: 80px;
 	     height: 116px;
            }
+       h3{
+         text-align:center;
+         color:#A9F84E;
+}
 
 </style>
 
 <body>
-
+        <h3 id="txt">16 coups restants</h3>  
 	<div class="container">
 	</div>
 	<br><br>
@@ -83,9 +87,10 @@
     const nbImage = 42;
     const tailleTab = 32;
 
-    
+    let txt = document.getElementById('txt');
+    txt.innetHTML ="MAHJONG";
     let nbTotal=0;
-    
+    let nbCoupRest = 16;
     let actualNumber=-1;
     let actuelIndex=-1;
     let nbClick=1; 
@@ -215,6 +220,8 @@
                         
                         nbClick=1;
                         nbTotal++;
+                        nbCoupRest--;
+                        txt.innerHTML= nbCoupRest+" coups restants";
                                                 
                        }
 
