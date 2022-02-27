@@ -29,12 +29,13 @@
 		width: 672px;
 		/* 84 *8 */
 		height: 480px;
-		/*background-color: rgba(200, 200, 200, 0.6);*/
-		background-color: rgba(241, 69, 16, 0.6);
+		background-color: #A9F84E;
+		/*opacity: 0.60;*/
+		/*background-color: rgba(241, 69, 16, 0.6);*/
 		/* ombres */
-		-webkit-box-shadow: 2px 2px 73px -4px rgba(0, 0, 0, 0.75);
-		-moz-box-shadow: 2px 2px 73px -4px rgba(0, 0, 0, 0.75);
-		box-shadow: 2px 2px 73px -4px rgba(0, 0, 0, 0.75);
+		-webkit-box-shadow: 2px 2px 73px -4px rgba(196, 248, 78, 0.75);
+		-moz-box-shadow: 2px 2px 73px -4px rgba(196, 248, 78, 0.75);
+		box-shadow: 2px 2px 73px -4px rgba(196, 248, 78, 0.75);
 	}
 
 	.container div {
@@ -50,7 +51,7 @@
 
 	.container div:hover {
 		opacity: 0.70;
-        border-color: #F5772A;
+        border-color: #A9F84E;
 	}
     
 	#demo {
@@ -59,6 +60,11 @@
 		margin-right: auto;
 
 	}
+        img{
+             width: 80px;
+	     height: 116px;
+           }
+
 </style>
 
 <body>
@@ -164,7 +170,7 @@
 				let div = document.createElement("div");
 				let img = document.createElement("img");
                 img.setAttribute("position",index);
-				img.setAttribute("src", "./classic/" + tab[index] + ".jpg");
+				img.setAttribute("src", "./classic/" + tab[index] + ".png");
 				img.setAttribute("width", "80");
 				img.setAttribute("onclick","clickImage()");
                 
@@ -179,7 +185,7 @@
                             actuelIndex = index;
 						    nbClick=2;
 							
-							div.style.borderColor ='#F5772A'; 
+							div.style.borderColor ='#A9F84E'; 
 							div.style.opacity=0.70;
 							//prompt("1 correct");
                             imgPrec =img;
@@ -196,9 +202,9 @@
                            nbClick = 1;
                        }
                        else if (tab[index]==tab[actuelIndex]){
-						div.style.borderColor ='#E3E3E5'; 
+						div.style.borderColor ='#A9F84E'; 
 						 
-						imgPrec.style.borderColor='#E3E3E5';
+						imgPrec.style.borderColor='#A9F84E';
 
 						
 						tab[actuelIndex]=-1;
