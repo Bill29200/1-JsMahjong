@@ -1,12 +1,12 @@
 
-# Mahjong Game :pushpin:  
+# Mahjong Game  
 
-![impr](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGnOjbLGHY6L2t84Q2Gq-7jSeq5_QpbsbhLg&usqp=CAU)
+:pushpin: ![impr](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGnOjbLGHY6L2t84Q2Gq-7jSeq5_QpbsbhLg&usqp=CAU)
 
 
-###  Application link
-https://jeuxmahjongjs.web.app/ :bulb: 
+:bulb: ###  Application link
+https://jeuxmahjongjs.web.app/ 
 
-## Langage programming : JavaScript :pencil2:
-## Hosting : Firebase :computer:
+:pencil2: ## Langage programming : JavaScript 
+:computer: ## Hosting : Firebase 
 
